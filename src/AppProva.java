@@ -11,8 +11,6 @@ public class AppProva {
         Scanner in = new Scanner(System.in);
         List <Produto> produtos = new ArrayList<>();
         List <Venda> vendas = new ArrayList<>();
-        //produtos.add(new Produto(1, "Batata", 2.00, 7));
-    
         
         do {
 
