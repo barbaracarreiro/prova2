@@ -138,7 +138,13 @@ public class AppProva {
                     
                     for (Venda p : vendas){
                         for (int i=0; i < produtos.size(); i++) {
-                            System.out.printf("\n--------------------\nData: %s\nProduto: %s - %d\nQuantidade obtida no estoque: %d\nValor unitario: %s\nValor Total: %s\n-------------------- ", p.getData(), produtos.get(i).getNome(), produtos.get(i).getCodigo(),produtos.get(i).getQuantidade(), produtos.get(i).getValor(), p.getValorTotal());
+                                            
+                            System.out.println("Data:"+ p.getData());
+                            System.out.println("Codigo : " + produtos.get(i).getCodigo());
+                            System.out.println("Nome  : " + produtos.get(i).getNome());
+                            System.out.println("Valor : " +  produtos.get(i).getValor());
+                            System.out.println("Quantidade em estoque : " + produtos.get(i).getQuantidade());
+                            System.out.println("Valor Total: " + p.getValorTotal());
                         }
                     }
                             System.out.print(comparador.toString());
